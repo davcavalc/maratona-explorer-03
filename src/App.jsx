@@ -1,13 +1,16 @@
+import React from "react";
+import Header from "./Componentes/Header";
+import Section1 from "./Componentes/Section1";
+
 import "./index.css";
 
 function App() {
-  
-
-  return (
-    <div className="text-center text-5xl bg-gray-700">
-      <h1 className="text-white">Olá mundo!!</h1>
-    </div>
-  );
+	return (
+		<React.Fragment>
+			<Header />
+			<Section1 />
+		</React.Fragment>
+	);
 }
 
 export default App;
