@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.neumorph {
+	border-radius: 0px;
+	background: #fb923c;
+	box-shadow: 8px 8px 16px #656221, -8px -8px 16px #ffff6f;
+}
+
+.section-title {
+	@apply text-3xl uppercase mt-3 text-center bg-orange-400 mx-72 text-black font-bold;
+}

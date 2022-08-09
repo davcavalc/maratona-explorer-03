@@ -3,7 +3,7 @@ import React from "react";
 const Section2 = () => {
 	return (
 		<>
-			<h2 className="text-3xl uppercase mt-3 text-center bg-orange-400 mx-72 text-black font-bold">
+			<h2 className="section-title">
 				bebidas
 			</h2>
 			<section className="border-box border-4 border-orange-900 mt-3 mx-72">
