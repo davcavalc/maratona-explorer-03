@@ -7,7 +7,7 @@ const FooterBox = () => {
             <footer class="footer p-10 mt-7 bg-stone-500 text-neutral-content">
                 <div className="flex flex-row">
                     <img className="w-[5rem] h-[5rem]" src={Coffee} alt="" />
-                    <h1 className="text-5xl mt-4 text-white font-bold uppercase">rocket<span className="text-amber-800">coffee</span></h1>
+                    <h1 className="text-5xl mt-4 text-white font-bold uppercase">rocket<span className="text-amber-800 underline">coffee</span></h1>
                 </div>
                 <div>
                     <span class="footer-title text-white">Social</span>
