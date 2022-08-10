@@ -5,7 +5,7 @@ const QrCode = () => {
 		<>
 			<div className="neumorph mx-40 mr-[82rem] mb-7">
                 <img className="p-6 h-40 w-40" src={Qrcode} alt="" />
-                <span className="p-6 ml-[20px] font-bold">Scan Me!</span>
+                <span className="p-6 ml-[20px] text-black font-bold">Scan Me!</span>
             </div>
 		</>
 	);
